@@ -9,6 +9,7 @@ In the training set, train.csv, you are provided a resp value, as well as severa
 This is a code competition that relies on a time-series API to ensure models do not peek forward in time. To use the API, follow the instructions on the Evaluation page. When you submit your notebook, it will be rerun on an unseen test:
 
 During the model training phase of the competition, this unseen test set is comprised of approximately 1 million rows of historical data.
+
 During the live forecasting phase, the test set will use periodically updated live market data. Note that during the second (forecasting) phase of the competition, the notebook time limits will scale with the number of trades presented in the test set. Refer to the Code Requirements for details.
 
 - **train.csv (too large to be uploaded here)** - the training set, contains historical data and returns  
